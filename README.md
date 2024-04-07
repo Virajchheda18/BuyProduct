@@ -18,27 +18,6 @@
 - iii. Coupon can be availed any number of items by the user
 
 
-- Have created the complete backend of the project considering we place order for one product at a time.
-- Created two APIs one inserting new products in database and one for placing an order.
-- Have hosted the server locally at PORT - 3000
-- Insert Product API - api/buy_product/add_product
-- Request body : {
-    "name": "Product2",
-    "size": "XXL",
-    "color": "White",
-    "cost": 1000
-}
-- Place Order API - api/buy_product/place_order
-- Request body: {
-    "email": "viraj@gmail.com",
-    "product_name": "Product1",
-    "size": "XXL",
-    "color": "WHITE",
-    "coupon": "FIRST50"
-}
-- Have handled all the validations and tested the APIs completely.
-- Have used personal mongoose cluster for hosting the database.
-
 ## Tech Implemented:
 
 - **BackEnd:**
@@ -72,6 +51,7 @@
 - **FrontEnd:**
   - reactjs
   - language used: javascript
+  - The frontend is hosted on port - 3000.
   - Have added client side validations and created a basic UI to interact with the backend.
 
 
